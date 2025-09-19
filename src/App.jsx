@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 export default function App() {
   return (
     <div className="bg-gray-50 min-h-screen text-gray-900">
-      
       <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 px-6 text-center">
         <motion.h1
           initial={{ opacity: 0, y: -30 }}
@@ -34,11 +33,11 @@ export default function App() {
           About Us
         </motion.h2>
         <p className="text-lg leading-relaxed">
-          Founded by <strong>Ukonu Constantine Chikpebie</strong> in Enugu, Nigeria, 
-          the Constantine Sage Foundation is dedicated to empowering young people 
-          through education, service, and leadership. Inspired by the belief that 
-          volunteering builds character and strengthens society, we gather and 
-          mobilize volunteers to create meaningful change in hospitals and local 
+          Founded by <strong>Ukonu Constantine Chikpebie</strong> in Enugu, Nigeria,
+          the Constantine Sage Foundation is dedicated to empowering young people
+          through education, service, and leadership. Inspired by the belief that
+          volunteering builds character and strengthens society, we gather and
+          mobilize volunteers to create meaningful change in hospitals and local
           communities.
         </p>
       </section>
@@ -81,7 +80,6 @@ export default function App() {
         <p><strong>Phone:</strong> +2349163282263</p>
         <p><strong>Founder:</strong> Ukonu Constantine Chikpebie</p>
       </section>
-
     </div>
   );
 }
