@@ -1,22 +1,38 @@
+import React from "react";
 import { motion } from "framer-motion";
 
 export default function App() {
   return (
     <div className="bg-gray-50 min-h-screen text-gray-900">
+      
+      {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 px-6 text-center">
-        <motion.h1 initial={{ opacity: 0, y: -30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}
-          className="text-4xl md:text-6xl font-bold mb-4">
+        <motion.h1
+          initial={{ opacity: 0, y: -30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="text-4xl md:text-6xl font-bold mb-4"
+        >
           Constantine Sage Foundation
         </motion.h1>
-        <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5, duration: 1 }}
-          className="text-lg md:text-2xl">
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 1 }}
+          className="text-lg md:text-2xl"
+        >
           Empowering youth. Inspiring service. Transforming communities.
         </motion.p>
       </section>
 
+      {/* About Us Section */}
       <section className="py-16 px-6 max-w-4xl mx-auto">
-        <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}
-          className="text-3xl font-bold mb-6 text-center">
+        <motion.h2
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-3xl font-bold mb-6 text-center"
+        >
           About Us
         </motion.h2>
         <p className="text-lg leading-relaxed">
@@ -29,9 +45,14 @@ export default function App() {
         </p>
       </section>
 
+      {/* Our Mission Section */}
       <section className="bg-gray-100 py-16 px-6">
-        <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}
-          className="text-3xl font-bold mb-6 text-center">
+        <motion.h2
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-3xl font-bold mb-6 text-center"
+        >
           Our Mission
         </motion.h2>
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -50,15 +71,21 @@ export default function App() {
         </div>
       </section>
 
+      {/* Contact Section */}
       <section className="py-16 px-6 text-center">
-        <motion.h2 initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}
-          className="text-3xl font-bold mb-6">
+        <motion.h2
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-3xl font-bold mb-6"
+        >
           Contact Us
         </motion.h2>
         <p><strong>Location:</strong> Enugu, Nigeria</p>
         <p><strong>Phone:</strong> +2349163282263</p>
         <p><strong>Founder:</strong> Ukonu Constantine Chikpebie</p>
       </section>
+
     </div>
   );
 }
