@@ -5,7 +5,6 @@ export default function App() {
   return (
     <div className="bg-gray-50 min-h-screen text-gray-900">
       
-      {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 px-6 text-center">
         <motion.h1
           initial={{ opacity: 0, y: -30 }}
@@ -25,7 +24,6 @@ export default function App() {
         </motion.p>
       </section>
 
-      {/* About Us Section */}
       <section className="py-16 px-6 max-w-4xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
@@ -45,7 +43,6 @@ export default function App() {
         </p>
       </section>
 
-      {/* Our Mission Section */}
       <section className="bg-gray-100 py-16 px-6">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
@@ -71,7 +68,6 @@ export default function App() {
         </div>
       </section>
 
-      {/* Contact Section */}
       <section className="py-16 px-6 text-center">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
